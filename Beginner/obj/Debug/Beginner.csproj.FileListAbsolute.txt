@@ -1,0 +1,7 @@
+C:\C#_beginner_to_Advanced\Beginner\Beginner\bin\Debug\Beginner.exe.config
+C:\C#_beginner_to_Advanced\Beginner\Beginner\bin\Debug\Beginner.exe
+C:\C#_beginner_to_Advanced\Beginner\Beginner\bin\Debug\Beginner.pdb
+C:\C#_beginner_to_Advanced\Beginner\Beginner\obj\Debug\Beginner.csproj.AssemblyReference.cache
+C:\C#_beginner_to_Advanced\Beginner\Beginner\obj\Debug\Beginner.csproj.CoreCompileInputs.cache
+C:\C#_beginner_to_Advanced\Beginner\Beginner\obj\Debug\Beginner.exe
+C:\C#_beginner_to_Advanced\Beginner\Beginner\obj\Debug\Beginner.pdb
