@@ -10,38 +10,28 @@ namespace Beginner
     {
         static void Main(string[] args)
         {
-            Calculator();
-        }
-        static void Calculator()
-        {
-            double re;
-            Console.Write("Enter a number :");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter what your operator you want :");
-            string op = Console.ReadLine();
-            Console.Write("Enter another number :");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-            switch (op)
-            {
-                case "+":
-                    re = num1 + num2;
-                    break;
-                case "-":
-                    re = num1 - num2;
-                    break;
-                case "*":
-                    re = num1 * num2;
-                    break;
-                case "/":
-                    re = num1 / num2;
-                    break;
-                default:
-                    re = -1;
-                    Console.WriteLine("Invalid Operator");
-                    break;
-            }
-            Console.WriteLine("Result = " + re);
+            /*create an object of class by create instance of class*/
+            Book book1 = new Book("Teddy","KP",200);
+            Console.WriteLine(book1.Pages);
+            Console.WriteLine(book1.isFull());
+            Console.WriteLine(Book.BookCount);
+            Console.WriteLine(book1.GetBookCount());
+            /*normal class can create instance of class*/
+            Usefultool tool = new Usefultool();
+            Usefultool.SayHi("Phat");
+            /*static class can not create instance of class*/
+            StaticClass.Today("Monday");
+
+            /*Inheritance*/
+            chef chef = new chef();
+            chef.MakeChicken();
+            chef.MakePizza();
+            Italianchef italianchef = new Italianchef();
+            italianchef.MakeChicken();
+            italianchef.MakePasta();
+            italianchef.MakePizza();
             Console.ReadKey();
         }
+        
     }
 }
